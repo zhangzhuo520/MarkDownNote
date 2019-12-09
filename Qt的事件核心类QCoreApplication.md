@@ -1,0 +1,6 @@
+##QCoreApplication
+QCoreApplication为整个Qt的非GUI的应用程序提供了整个事件循环，整个系统只有一个QCoreApplication对象。不管是来自操作系统还是其他源事件都在这里调度，处理，分配。
+他还处理应用程序的初始化和结束，以及应用程序的一些配置。
+一般通过exec启动事件循环，长时间的操作可以通过processEvents()来保持程序响应。
+
+
