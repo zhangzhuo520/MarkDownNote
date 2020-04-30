@@ -33,7 +33,7 @@ QList<Object*> EventFilters(for eventfilters)
 QAtomicPointer<QtSharedPointer::ExternalRefCountData> sharedRefcount;(for epress object was delete)
            
 ```
-完全分析下来主要就3个方面（信号与槽的部分， object关系处理， object与线程）
+完全分析下来QObject3个方面得功能（信号与槽的部分， object关系处理， object与线程）
 
 ###object与线程
 主要分析QThreadData
